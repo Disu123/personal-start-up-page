@@ -58,7 +58,7 @@ a:hover::before {
   width: 17%;
   height: 39%;
   position: relative;
-  left: 100px;
+  left: -12px;
 }
 
 .title{
@@ -74,7 +74,7 @@ a:hover::before {
   background-color: #33322e;
   padding: 12.5px; 
   position: relative;
-  left: 100px;
+  left: -12px;
   /*border: 5px solid black;*/
   /*border-radius: 5px;*/
   height: 35%;
