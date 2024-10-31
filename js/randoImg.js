@@ -12,7 +12,7 @@ function displayRandomImage() {
     // Create the image element and set its source
     const imgElement = document.createElement('img');
     imgElement.src = `imgs/${randomImageNumber}.jpg`;
-    imgElement.style.width = '200px'; 
+    imgElement.style.width = '216px'; 
     imgElement.style.height = 'auto'; 
     
     const imageContainer = document.getElementById('image');
