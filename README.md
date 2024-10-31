@@ -1,2 +1,2 @@
 # personal-start-up-page
-A start up page for myself
+A start up page for firefox
