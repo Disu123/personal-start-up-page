@@ -4,7 +4,7 @@ background-color:#2D3B01;
 main{
   display:flex;
   flex-direction: row;
-  flex-wrap: wrap; /* Enable wrapping for smaller screens */
+  flex-wrap: wrap; 
   justify-content: center;
   align-items: center;
   width: 100%;
