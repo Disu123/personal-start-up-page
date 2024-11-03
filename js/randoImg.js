@@ -13,7 +13,7 @@ function displayRandomImage() {
     const imgElement = document.createElement('img');
     imgElement.src = `imgs/${randomImageNumber}.jpg`;
     imgElement.style.width = '216px'; 
-    imgElement.style.height = 'auto'; 
+    imgElement.style.height = '232px'; 
     
     const imageContainer = document.getElementById('image');
     imageContainer.innerHTML = ''; 

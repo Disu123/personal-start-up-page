@@ -74,7 +74,7 @@ a:hover::before {
   max-width: 17%; 
   min-width: 200px; 
   width: 17%;
-  height: 39%;
+  height: 39.7%;
   position: relative;
   left: -12px;
   padding: 10px;
@@ -94,7 +94,7 @@ a:hover::before {
   padding: 12.5px; 
   position: relative;
   left: -12px;
-  height: 38%;
+  height:39%;
   max-width: 100%;
   display: block;
   justify-items: center;
