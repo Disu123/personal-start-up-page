@@ -3,8 +3,6 @@ background-color:#2D3B01;
 }
 main{
   display:flex;
-  flex-direction: row;
-  flex-wrap: wrap; 
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -73,7 +71,6 @@ a:hover::before {
   flex: 1 1 15%;
   max-width: 17%; 
   min-width: 200px; 
-  width: 17%;
   height: 39.7%;
   position: relative;
   left: -12px;
@@ -96,7 +93,4 @@ a:hover::before {
   left: -12px;
   height:39%;
   max-width: 100%;
-  display: block;
-  justify-items: center;
-  align-items: center;
 }
