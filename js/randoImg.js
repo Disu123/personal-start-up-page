@@ -6,7 +6,7 @@ function getRandomInt(min, max) {
 
 function displayRandomImage() {
     // Specify the total number of images you have 
-    const totalImages = 35; // For example, if you have gifs from 1.gif to 10.gif
+    const totalImages = 42; // For example, if you have gifs from 1.gif to 10.gif
     const randomImageNumber = getRandomInt(1, totalImages + 1); // Generate a random number between 1 and totalImages
 
     // Create the image element and set its source
