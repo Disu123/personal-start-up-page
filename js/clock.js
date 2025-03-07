@@ -6,10 +6,10 @@ function showClock() {
   
   let now = new Date();
 
-  let offset = now.getTimezoneOffset() / 60;
-  let hour = now.getHours() - offset;
-  let minute = now.getMinutes();
-  let second = now.getSeconds();
+  let utcHour = now.getUTCHours();
+  let hour = (utcHour - 3 + 24) % 24;
+  let minute = now.getUTCMinutes();
+  let second = now.getUTCSeconds();
 
   let clock = formatTime(hour, minute, second);
 
