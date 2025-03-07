@@ -14,6 +14,6 @@ function showClock() {
 
   document.getElementById('time').textContent = clock;
   
-  setTimeout(showClock(),1000);
+  setTimeout("showClock()",1000);
 };
 showClock();
