@@ -6,8 +6,7 @@ function showClock() {
   
   let now = new Date();
 
-  let offset = now.getTimezoneOffset() / 60;
-  let hour = now.getHours() - offset;
+  let hour = now.getHours();
   let minute = now.getMinutes();
   let second = now.getSeconds();
 
@@ -15,6 +14,6 @@ function showClock() {
 
   document.getElementById('time').textContent = clock;
   
-  setTimeout(showClock(),1000);
+  setTimeout("showClock()",1000);
 };
 showClock();
