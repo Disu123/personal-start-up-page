@@ -1,5 +1,9 @@
 body{
-background-color:#2D3B01;
+/* background-color:#2D3B01;*/ 
+  background-image:url(imgs/wall/citycooler.png);
+  background-size: cover;     
+  background-position: center;
+  background-repeat: no-repeat;
 }
 main{
   display:flex;
@@ -15,6 +19,7 @@ ol{
 }
 
 a{
+
  text-decoration: none;
  color:#a6a5a1;
  position: relative;
@@ -38,16 +43,16 @@ a:hover::before {
 }
 
 .time{
-  font-size: 56px;
+  font-size: 53px;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   margin-bottom: 10px;
   top: -180px;
   position: absolute; 
-  color:whitesmoke;
+  color:#4c5e76;
 }
 .date{
   font-size: 20px;
@@ -56,11 +61,11 @@ a:hover::before {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  height: 90vh;
   margin-bottom: 5px;
   top: -130px;
   position: absolute;
-  color: gray;
+  color:#1f2a3c;
 }
 
 .section{
@@ -68,6 +73,7 @@ a:hover::before {
   font-family: Roboto; 
   /*overflow-y:scroll;*/
   background-color:#33322e;
+  background-color: rgba(0, 0, 0, 0.7);
   flex: 1 1 15%;
   max-width: 17%; 
   min-width: 200px; 
@@ -87,6 +93,7 @@ a:hover::before {
 
 .image{ 
   background-color: #33322e;
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 12.5px; 
   position: relative;
   left: -12px;
